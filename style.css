@@ -1,0 +1,19 @@
+body{
+	background-image: url("header.jpg");
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	color: #00ff00;
+	border: 2px dashed red;
+}
+
+p{
+	color: #ffffff;
+	background: linear-gradient(to right,red, yellow);
+	background-size: cover;
+	letter-spacing: .2em;
+	font-size: 30px;
+	text-align: center;
+}

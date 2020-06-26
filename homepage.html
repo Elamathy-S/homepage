@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Hello Elamathy!!</h1>
+	
+	<p id="date"></p>
+	<script type="text/javascript" src="script.js"></script>
+
+	<p id="datetime"></p>	
+	<script>
+		var n = new Date();
+		document.getElementById("datetime").innerHTML = n.toLocaleTimeString();
+	</script>
+
+</body>
+</html>
